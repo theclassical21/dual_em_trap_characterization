@@ -1,0 +1,15 @@
+ALL SCRIPTS ARE INTENDED TO BE RUN FROM THEIR OWN DIRECTORY.
+Only tested on unix system, no clue how itll go on windows.
+
+A set of tools primarily to characterize the properties of a cloud of rubidium atoms.
+Originally intended to be making progress towards a scattering simulation,
+	but the set up necessary ended up being a significant task in itself.
+
+Note these python scripts are entirely intended to function from the shell using a command such as "python -i X.py".
+There is a single shell script intended to be run as "bash unload_list.sh"
+The only tests that are passable are the function "do_it_all()" accessible via "Rb_x_width.py" and "unload_list.sh" 
+Also (probably) passable is the function "TEST()" accessible via "Rb_image_processing.py"
+There is a class script labeled Rubidium.py, which does a number of things. Primarily as a tool to easily convert widths to densities.
+
+This is probably the worst program I've ever made, but I hope it at least somewhat shows my coding skills
+( even if it also happens to show my weaknesses with recognizing when to jump ship and change projects )
